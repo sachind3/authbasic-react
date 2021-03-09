@@ -8,7 +8,7 @@ const AppState = (props) => {
     if (isUser !== null) {
       setIsAuth(isUser);
     }
-  }, []);
+  }, [isUser]);
   let data = {
     isAuth,
     setIsAuth,
